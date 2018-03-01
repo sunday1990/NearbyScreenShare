@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AD9F1E20478B2C00E15535 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD9F1D20478B2C00E15535 /* AppDelegate.m */; };
+		16AD9F2120478B2C00E15535 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD9F2020478B2C00E15535 /* ViewController.m */; };
+		16AD9F2420478B2C00E15535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AD9F2220478B2C00E15535 /* Main.storyboard */; };
+		16AD9F2620478B2C00E15535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AD9F2520478B2C00E15535 /* Assets.xcassets */; };
+		16AD9F2920478B2C00E15535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AD9F2720478B2C00E15535 /* LaunchScreen.storyboard */; };
+		16AD9F2C20478B2C00E15535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD9F2B20478B2C00E15535 /* main.m */; };
+		16AD9F3620478B2C00E15535 /* NearbyScreenShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD9F3520478B2C00E15535 /* NearbyScreenShareTests.m */; };
+		16AD9F4120478B2D00E15535 /* NearbyScreenShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD9F4020478B2D00E15535 /* NearbyScreenShareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16AD9F3220478B2C00E15535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AD9F1120478B2C00E15535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AD9F1820478B2C00E15535;
+			remoteInfo = NearbyScreenShare;
+		};
+		16AD9F3D20478B2D00E15535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AD9F1120478B2C00E15535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AD9F1820478B2C00E15535;
+			remoteInfo = NearbyScreenShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16AD9F1920478B2C00E15535 /* NearbyScreenShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyScreenShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AD9F1C20478B2C00E15535 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16AD9F1D20478B2C00E15535 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16AD9F1F20478B2C00E15535 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16AD9F2020478B2C00E15535 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16AD9F2320478B2C00E15535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16AD9F2520478B2C00E15535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16AD9F2820478B2C00E15535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16AD9F2A20478B2C00E15535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AD9F2B20478B2C00E15535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16AD9F3120478B2C00E15535 /* NearbyScreenShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyScreenShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AD9F3520478B2C00E15535 /* NearbyScreenShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyScreenShareTests.m; sourceTree = "<group>"; };
+		16AD9F3720478B2C00E15535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AD9F3C20478B2C00E15535 /* NearbyScreenShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyScreenShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AD9F4020478B2D00E15535 /* NearbyScreenShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyScreenShareUITests.m; sourceTree = "<group>"; };
+		16AD9F4220478B2D00E15535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16AD9F1620478B2C00E15535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AD9F2E20478B2C00E15535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AD9F3920478B2C00E15535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AD9F1020478B2C00E15535 = {
+			isa = PBXGroup;
+			children = (
+				16AD9F1B20478B2C00E15535 /* NearbyScreenShare */,
+				16AD9F3420478B2C00E15535 /* NearbyScreenShareTests */,
+				16AD9F3F20478B2D00E15535 /* NearbyScreenShareUITests */,
+				16AD9F1A20478B2C00E15535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16AD9F1A20478B2C00E15535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16AD9F1920478B2C00E15535 /* NearbyScreenShare.app */,
+				16AD9F3120478B2C00E15535 /* NearbyScreenShareTests.xctest */,
+				16AD9F3C20478B2C00E15535 /* NearbyScreenShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16AD9F1B20478B2C00E15535 /* NearbyScreenShare */ = {
+			isa = PBXGroup;
+			children = (
+				16AD9F1C20478B2C00E15535 /* AppDelegate.h */,
+				16AD9F1D20478B2C00E15535 /* AppDelegate.m */,
+				16AD9F1F20478B2C00E15535 /* ViewController.h */,
+				16AD9F2020478B2C00E15535 /* ViewController.m */,
+				16AD9F2220478B2C00E15535 /* Main.storyboard */,
+				16AD9F2520478B2C00E15535 /* Assets.xcassets */,
+				16AD9F2720478B2C00E15535 /* LaunchScreen.storyboard */,
+				16AD9F2A20478B2C00E15535 /* Info.plist */,
+				16AD9F2B20478B2C00E15535 /* main.m */,
+			);
+			path = NearbyScreenShare;
+			sourceTree = "<group>";
+		};
+		16AD9F3420478B2C00E15535 /* NearbyScreenShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				16AD9F3520478B2C00E15535 /* NearbyScreenShareTests.m */,
+				16AD9F3720478B2C00E15535 /* Info.plist */,
+			);
+			path = NearbyScreenShareTests;
+			sourceTree = "<group>";
+		};
+		16AD9F3F20478B2D00E15535 /* NearbyScreenShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16AD9F4020478B2D00E15535 /* NearbyScreenShareUITests.m */,
+				16AD9F4220478B2D00E15535 /* Info.plist */,
+			);
+			path = NearbyScreenShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16AD9F1820478B2C00E15535 /* NearbyScreenShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AD9F4520478B2D00E15535 /* Build configuration list for PBXNativeTarget "NearbyScreenShare" */;
+			buildPhases = (
+				16AD9F1520478B2C00E15535 /* Sources */,
+				16AD9F1620478B2C00E15535 /* Frameworks */,
+				16AD9F1720478B2C00E15535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearbyScreenShare;
+			productName = NearbyScreenShare;
+			productReference = 16AD9F1920478B2C00E15535 /* NearbyScreenShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16AD9F3020478B2C00E15535 /* NearbyScreenShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AD9F4820478B2D00E15535 /* Build configuration list for PBXNativeTarget "NearbyScreenShareTests" */;
+			buildPhases = (
+				16AD9F2D20478B2C00E15535 /* Sources */,
+				16AD9F2E20478B2C00E15535 /* Frameworks */,
+				16AD9F2F20478B2C00E15535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16AD9F3320478B2C00E15535 /* PBXTargetDependency */,
+			);
+			name = NearbyScreenShareTests;
+			productName = NearbyScreenShareTests;
+			productReference = 16AD9F3120478B2C00E15535 /* NearbyScreenShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16AD9F3B20478B2C00E15535 /* NearbyScreenShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AD9F4B20478B2D00E15535 /* Build configuration list for PBXNativeTarget "NearbyScreenShareUITests" */;
+			buildPhases = (
+				16AD9F3820478B2C00E15535 /* Sources */,
+				16AD9F3920478B2C00E15535 /* Frameworks */,
+				16AD9F3A20478B2C00E15535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16AD9F3E20478B2D00E15535 /* PBXTargetDependency */,
+			);
+			name = NearbyScreenShareUITests;
+			productName = NearbyScreenShareUITests;
+			productReference = 16AD9F3C20478B2C00E15535 /* NearbyScreenShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16AD9F1120478B2C00E15535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ccSunday;
+				TargetAttributes = {
+					16AD9F1820478B2C00E15535 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					16AD9F3020478B2C00E15535 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16AD9F1820478B2C00E15535;
+					};
+					16AD9F3B20478B2C00E15535 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16AD9F1820478B2C00E15535;
+					};
+				};
+			};
+			buildConfigurationList = 16AD9F1420478B2C00E15535 /* Build configuration list for PBXProject "NearbyScreenShare" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16AD9F1020478B2C00E15535;
+			productRefGroup = 16AD9F1A20478B2C00E15535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16AD9F1820478B2C00E15535 /* NearbyScreenShare */,
+				16AD9F3020478B2C00E15535 /* NearbyScreenShareTests */,
+				16AD9F3B20478B2C00E15535 /* NearbyScreenShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16AD9F1720478B2C00E15535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AD9F2920478B2C00E15535 /* LaunchScreen.storyboard in Resources */,
+				16AD9F2620478B2C00E15535 /* Assets.xcassets in Resources */,
+				16AD9F2420478B2C00E15535 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AD9F2F20478B2C00E15535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AD9F3A20478B2C00E15535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16AD9F1520478B2C00E15535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AD9F2120478B2C00E15535 /* ViewController.m in Sources */,
+				16AD9F2C20478B2C00E15535 /* main.m in Sources */,
+				16AD9F1E20478B2C00E15535 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AD9F2D20478B2C00E15535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AD9F3620478B2C00E15535 /* NearbyScreenShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AD9F3820478B2C00E15535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AD9F4120478B2D00E15535 /* NearbyScreenShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16AD9F3320478B2C00E15535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AD9F1820478B2C00E15535 /* NearbyScreenShare */;
+			targetProxy = 16AD9F3220478B2C00E15535 /* PBXContainerItemProxy */;
+		};
+		16AD9F3E20478B2D00E15535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AD9F1820478B2C00E15535 /* NearbyScreenShare */;
+			targetProxy = 16AD9F3D20478B2D00E15535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16AD9F2220478B2C00E15535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AD9F2320478B2C00E15535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16AD9F2720478B2C00E15535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AD9F2820478B2C00E15535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16AD9F4320478B2D00E15535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16AD9F4420478B2D00E15535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16AD9F4620478B2D00E15535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU8Q2UZGJG;
+				INFOPLIST_FILE = NearbyScreenShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccSunday.NearbyScreenShare.NearbyScreenShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16AD9F4720478B2D00E15535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU8Q2UZGJG;
+				INFOPLIST_FILE = NearbyScreenShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccSunday.NearbyScreenShare.NearbyScreenShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16AD9F4920478B2D00E15535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearbyScreenShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccSunday.NearbyScreenShare.NearbyScreenShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyScreenShare.app/NearbyScreenShare";
+			};
+			name = Debug;
+		};
+		16AD9F4A20478B2D00E15535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearbyScreenShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccSunday.NearbyScreenShare.NearbyScreenShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyScreenShare.app/NearbyScreenShare";
+			};
+			name = Release;
+		};
+		16AD9F4C20478B2D00E15535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearbyScreenShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccSunday.NearbyScreenShare.NearbyScreenShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearbyScreenShare;
+			};
+			name = Debug;
+		};
+		16AD9F4D20478B2D00E15535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NearbyScreenShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccSunday.NearbyScreenShare.NearbyScreenShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearbyScreenShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16AD9F1420478B2C00E15535 /* Build configuration list for PBXProject "NearbyScreenShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AD9F4320478B2D00E15535 /* Debug */,
+				16AD9F4420478B2D00E15535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AD9F4520478B2D00E15535 /* Build configuration list for PBXNativeTarget "NearbyScreenShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AD9F4620478B2D00E15535 /* Debug */,
+				16AD9F4720478B2D00E15535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AD9F4820478B2D00E15535 /* Build configuration list for PBXNativeTarget "NearbyScreenShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AD9F4920478B2D00E15535 /* Debug */,
+				16AD9F4A20478B2D00E15535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AD9F4B20478B2D00E15535 /* Build configuration list for PBXNativeTarget "NearbyScreenShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AD9F4C20478B2D00E15535 /* Debug */,
+				16AD9F4D20478B2D00E15535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16AD9F1120478B2C00E15535 /* Project object */;
+}
